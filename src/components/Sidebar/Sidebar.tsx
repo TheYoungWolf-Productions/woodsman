@@ -134,15 +134,15 @@ const Sidebar = () => {
           </div>
           <ul className="mt-12">
             {routes.map((listItem, index) => (
-              <>
-                <li
-                  key={index}
-                  className="flex w-full justify-between text-gray-300 hover:text-white cursor-pointer items-center mb-6"
-                >
+              <div
+                key={index}
+                className="flex flex-col w-full justify-between text-gray-300 hover:text-white cursor-pointer mb-6"
+              >
+                <li>
                   <CustomLink to={listItem.path}>
-                    <div className="flex items-center">
+                    <div className="flex items-center font-normal text-2xl">
                       {svgs[index]}
-                      <span className="text-lg ml-2">{listItem.name}</span>
+                      <span className="ml-2">{listItem.name}</span>
                     </div>
                   </CustomLink>
                 </li>
@@ -157,7 +157,7 @@ const Sidebar = () => {
                     </Routes>
                   </ul>
                 )}
-              </>
+              </div>
             ))}
             {/* <li className="flex w-full justify-between text-gray-300 hover:text-white cursor-pointer items-center mb-6">
                   <svg

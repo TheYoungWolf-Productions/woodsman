@@ -16,7 +16,7 @@ class Catgories extends React.Component<any, state> {
           className="flex pl-5 w-full justify-between text-gray-300 hover:text-white cursor-pointer items-center"
         >
           <CustomLink end to={item}>
-            <div className="flex">
+            <div className="flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="icon icon-tabler icon-tabler-grid"
