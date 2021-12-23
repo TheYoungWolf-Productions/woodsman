@@ -1,6 +1,6 @@
 import Home from './components/Home/Home'
 import Shop from './components/Shop/Shop'
-import Categories from './containers/Categories/Categories'
+import Categories from './components/Categories/Categories'
 
 interface route {
     name: string,
