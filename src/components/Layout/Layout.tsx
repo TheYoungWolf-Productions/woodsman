@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Sidebar from "../Sidebar/Sidebar";
+import Sidebar from "../../containers/Sidebar/Sidebar";
 import routes from "../../route.config";
 
 const Layout = () => {
